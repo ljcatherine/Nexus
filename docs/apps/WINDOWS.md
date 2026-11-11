@@ -14,7 +14,7 @@ tools as the Linux edition, with native Windows terminals and credential storage
 | Area | What it does |
 |---|---|
 | **IDE** | Explorer honouring `.gitignore`, `.cursorignore` and `.nexusignore`. Multi-tab editor, 15+ languages, multi-cursor, find/replace, minimap, split view, Git gutter, quick open, command palette, search, source control, tasks and a Problems list. PowerShell, Command Prompt, WSL and Git Bash terminals over ConPTY. |
-| **AI** | Codex and Claude Code in Ask, Plan, Agent and Bypass modes, OpenAI-compatible APIs and PS5LM Plus. Context sharing you can see, secret detection, attachments, command approvals, hunk review, Ctrl+K inline edits and resumable sessions. |
+| **AI** | Codex and Claude Code in Ask, Plan, Agent and Bypass modes, OpenAI-compatible APIs and NexusAI. Context sharing you can see, secret detection, attachments, command approvals, hunk review, Ctrl+K inline edits and resumable sessions. |
 | **Infrastructure** | Live telemetry, alerts, devices with pinned host keys, services, logs, processes, network probes, SSH/SFTP, NixOS dry-build and switch, Debian shadow workspaces, Minecraft and PS5LM status. |
 | **Security** | Rust policy engine for every remote action. Debian is read-only by default and enforced by `nexus-ro`. Timed owner unlock; agents never get write access. Access session encrypted with DPAPI. App lock with the iPhone's 4-digit code. |
 

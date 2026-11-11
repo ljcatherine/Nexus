@@ -23,7 +23,7 @@ that build's Info.plist.
 | `NexusGatewayHost` | Worker host |
 | `NexusAccessIssuer` | Access issuer |
 | `NexusAccessClientID` | Access client ID |
-| `NexusDefaultAIEndpoint` | Optional prefilled PS5LM Plus URL |
+| `NexusDefaultAIEndpoint` | Optional prefilled NexusAI URL |
 | `NexusRelayDevices` | Optional `{name, username, target}` relay devices |
 
 Or leave it out and enter the same values in **Settings → API Connections**.

@@ -36,7 +36,7 @@ One ecosystem for running Linux servers, AI models and your own code from an iPh
 **[`NexusiOS`](https://github.com/ljcatherine/NexusiOS)** · Swift · SwiftUI
 
 SSH terminals with pinned host keys, SFTP files, systemd services, live host
-health and an AI workspace for PS5LM Plus, OpenAI-compatible APIs, Ollama and
+health and an AI workspace for NexusAI, OpenAI-compatible APIs, Ollama and
 Apple Intelligence. Built on Linux with xtool and released as an unsigned IPA.
 
 </td>
@@ -79,7 +79,7 @@ PS5 models and agent runs.
 ### 🧠 [NexusAI](docs/backend/NEXUSAI.md)
 **Custom PS5 app** · C++ · llama.cpp on the PS5 GPU · **Agent orchestrator** · Python
 
-Local LLM inference on a PlayStation 5 through a GPL fork of PS5LM Plus with an
+Local LLM inference on a PlayStation 5 through [NexusAI](https://github.com/ljcatherine/NexusAI), a GPL-3.0 PS5 app, with an
 authenticated model-control API, plus a Debian orchestrator for durable agent
 runs with human-reviewed patches and commands. Every app can chat with it; the
 iPhone can switch models and run agents.
@@ -114,7 +114,7 @@ flowchart LR
     end
 
     N["NixOS workstation<br/>workspace agent"]
-    P["PS5 · NexusAI<br/>PS5LM Plus"]
+    P["PS5 · NexusAI<br/>1.0.0"]
 
     I & L & W --> A --> GWK --> T --> G
     O --> A --> ONW --> T
@@ -140,7 +140,7 @@ anything. See [Architecture](docs/ARCHITECTURE.md).
 | Files over SFTP | ✅ | ✅ read-only on Debian | ✅ read-only on Debian | Read-only workspace files |
 | systemd services, logs, processes | ✅ | ✅ | ✅ | — |
 | Live host health and alerts | ✅ | ✅ | ✅ | — |
-| AI chat (PS5LM Plus, OpenAI-compatible) | ✅ | ✅ | ✅ | ✅ |
+| AI chat (NexusAI, OpenAI-compatible) | ✅ | ✅ | ✅ | ✅ |
 | Codex and Claude Code agents | — | ✅ | ✅ | — |
 | Code editor, Git, tasks | — | ✅ | ✅ | — |
 | PS5 model loading and agent runs | ✅ | Status | Status | Status |

@@ -15,7 +15,7 @@ Windows edition and the iPhone app.
 | Area | What it does |
 |---|---|
 | **IDE** | Workspace explorer that honours `.gitignore`, `.cursorignore` and `.nexusignore`. Multi-tab editor with highlighting for 15+ languages, multi-cursor, find/replace, minimap, split view and a Git gutter. Quick open, command palette, workspace search, source control, build/test tasks with a Problems list, and terminals for your login shell, Bash, Zsh, Fish and PowerShell. |
-| **AI** | Codex (official `codex app-server`) and Claude Code (official CLI) in Ask, Plan, Agent and Bypass modes, plus OpenAI-compatible APIs and PS5LM Plus. Visible context sharing, secret detection, image and PDF attachments, command approvals, hunk-by-hunk review of agent edits, Ctrl+K inline edits, resumable sessions with task memory. |
+| **AI** | Codex (official `codex app-server`) and Claude Code (official CLI) in Ask, Plan, Agent and Bypass modes, plus OpenAI-compatible APIs and NexusAI. Visible context sharing, secret detection, image and PDF attachments, command approvals, hunk-by-hunk review of agent edits, Ctrl+K inline edits, resumable sessions with task memory. |
 | **Infrastructure** | Dashboard with live telemetry and alerts, devices with pinned SSH host keys, services, logs, processes and network probes. SSH and SFTP terminals, NixOS dry-build and switch, Debian shadow workspaces, Minecraft and PS5LM status. |
 | **Security** | One Rust policy engine for every remote action. The protected Debian server is read-only by default, enforced on the server by `nexus-ro`. The owner can unlock writes for 30 minutes; agents never can. Optional app lock with the iPhone's 4-digit code. |
 
@@ -57,7 +57,7 @@ Copy `docs/site.example.json` to `~/.config/nexus-desktop/site.json`, or set
 | OpenAI Codex | Install the Codex CLI, `codex login` |
 | Claude Code | Install Claude Code, `claude auth login` |
 | OpenAI-compatible | Settings → AI providers; keys go to the Secret Service |
-| PS5LM Plus | Settings → AI providers → its LAN URL |
+| NexusAI | Settings → AI providers → its LAN URL |
 
 A provider shows **Connected** only after sign-in and a real test turn both succeed.
 

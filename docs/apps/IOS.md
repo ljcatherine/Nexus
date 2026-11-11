@@ -18,7 +18,7 @@ workspace agent and the NexusAI PS5 integration all live in this repository.
 | **Overview** | CPU, memory, storage, uptime, load and GPU snapshots. History and rates come only from real samples. Optional active-screen refresh and local low-resource notifications. |
 | **Files** | SFTP and app-local browsing, bounded previews and edits, multi-file and recursive transfers with progress and cancellation, explicit conflict handling. |
 | **Services** | systemd controls and logs, guarded NixOS dry-build and switch, network/DNS/TCP diagnostics, confirmed command recipes, a Minecraft panel launcher, and the **One Time Passcode** that unlocks Nexus Desktop. |
-| **AI** | Streaming chat for PS5LM Plus, OpenAI-compatible APIs, Open WebUI, Ollama and Apple Intelligence (iOS 26+). Response profiles, protected conversations, text/CSV/TSV/XLSX/PDF and image attachments, on-device OCR, opt-in local knowledge, secret warnings, approved sharing of cached host snapshots, web research through the gateway, PS5 model switching and agent runs. |
+| **AI** | Streaming chat for NexusAI, OpenAI-compatible APIs, Open WebUI, Ollama and Apple Intelligence (iOS 26+). Response profiles, protected conversations, text/CSV/TSV/XLSX/PDF and image attachments, on-device OCR, opt-in local knowledge, secret warnings, approved sharing of cached host snapshots, web research through the gateway, PS5 model switching and agent runs. |
 
 ## Install
 
@@ -74,7 +74,6 @@ OAuth with PKCE in the system browser. Tokens stay in the Keychain.
 | `cloudflare/` | `nexus-gateway` Worker |
 | `agent-orchestrator/` | Python agent orchestrator |
 | `workspace-agent/` | Go read-only workspace bridge |
-| `integrations/ps5lm-plus` | NexusAI PS5LM Plus fork |
 | `integrations/hermes` | Optional Hermes agent engine |
 | `scripts/` | Build, release, validation and Debian hardening |
 
