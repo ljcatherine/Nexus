@@ -178,6 +178,7 @@ Linux Secret Service. [Full model →](docs/SECURITY.md)
 | [**NexusNix**](https://github.com/ljcatherine/NexusNix) | Nexus Desktop for Linux and NixOS | Rust · Nix | Nix flake |
 | [**NexusWindows**](https://github.com/ljcatherine/NexusWindows) | Nexus Desktop for Windows | Rust | MSI · ZIP · EXE |
 | [**NexusOnline**](https://github.com/ljcatherine/NexusOnline) | Web client and landing page at nexus.liamjc.dev | Astro · JS | Cloudflare Worker |
+| [**NexusMinecraft**](https://github.com/ljcatherine/NexusMinecraft) | Minecraft server control panel, behind Cloudflare Access | TypeScript · Python | Source |
 | **Nexus** (this repo) | The ecosystem overview, architecture and backend setup guides | Markdown | — |
 
 All builds are made and released locally. No hosted CI touches signing keys or
