@@ -11,7 +11,7 @@ One ecosystem for running Linux servers, AI models and your own code from an iPh
 [![Linux](https://img.shields.io/badge/Linux-Rust%20%C2%B7%20Nix-0B1430?style=flat-square&logo=nixos&logoColor=9CBCFF&labelColor=070C18)](https://github.com/ljcatherine/NexusNix)
 [![Windows](https://img.shields.io/badge/Windows-Rust-0B1430?style=flat-square&logo=windows&logoColor=9CBCFF&labelColor=070C18)](https://github.com/ljcatherine/NexusWindows)
 [![Web](https://img.shields.io/badge/Web-Astro%20%C2%B7%20Workers-0B1430?style=flat-square&logo=cloudflare&logoColor=F38020&labelColor=070C18)](https://github.com/ljcatherine/NexusOnline)
-[![Gateway](https://img.shields.io/badge/gateway-Go%20%C2%B7%20Debian-0B1430?style=flat-square&logo=go&logoColor=7CE8CA&labelColor=070C18)](docs/backend/DEBIAN.md)
+[![Gateway](https://img.shields.io/badge/gateway-Go%20%C2%B7%20Debian-0B1430?style=flat-square&logo=go&logoColor=7CE8CA&labelColor=070C18)](https://github.com/ljcatherine/NexusBackend)
 
 [**nexus.liamjc.dev**](https://nexus.liamjc.dev) ·
 [Docs](docs/README.md) ·
@@ -173,7 +173,8 @@ Linux Secret Service. [Full model →](docs/SECURITY.md)
 
 | Repository | What it is | Language | Releases |
 |---|---|---|---|
-| [**NexusiOS**](https://github.com/ljcatherine/NexusiOS) | iPhone and iPad app, plus the Go gateway, Cloudflare Worker, agent orchestrator, workspace agent and PS5 integration | Swift · Go · Python · JS | Unsigned IPA |
+| [**NexusiOS**](https://github.com/ljcatherine/NexusiOS) | iPhone and iPad app | Swift | Unsigned IPA |
+| [**NexusBackend**](https://github.com/ljcatherine/NexusBackend) | Go gateway, Cloudflare Worker, agent orchestrator, workspace agent and Hermes engine | Go · Python · JS | Source |
 | [**NexusNix**](https://github.com/ljcatherine/NexusNix) | Nexus Desktop for Linux and NixOS | Rust · Nix | Nix flake |
 | [**NexusWindows**](https://github.com/ljcatherine/NexusWindows) | Nexus Desktop for Windows | Rust | MSI · ZIP · EXE |
 | [**NexusOnline**](https://github.com/ljcatherine/NexusOnline) | Web client and landing page at nexus.liamjc.dev | Astro · JS | Cloudflare Worker |
